@@ -10,7 +10,11 @@ function App() {
   const [Result, SetResult] = useState(""); //Hook.
 
   const HandButton = (pChildren) => { //Parameter pChildren brought from Button.js
-    SetResult(Result + pChildren);
+
+    if ( Result.length < 14)  {
+      SetResult(Result + pChildren)
+    }
+ 
   };
 
   const FClear = () => { //Funtion Clear
