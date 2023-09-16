@@ -1,0 +1,24 @@
+.style-Button {
+ /* Solo se le da la altura al botón*/
+    height: 70px; 
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+ 
+    background-color: rgb(164, 175, 5);
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    margin: 2px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer; /* It transforms el puntero en una mano/manito cuando se está sobre el botón. */ 
+    user-select: none; /* It does not allows sellecting the text into tag */ 
+
+}
+
+.style-Button:hover {
+    background-color: rgb(1, 1, 37);
+}

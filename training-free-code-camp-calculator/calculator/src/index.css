@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* center contect: */
+
+  display: flex; /* Posiciona a los elementos en cada línea individual. */
+  flex-wrap: wrap;
+  flex-direction: column; /* Posiciona los elementos en columna. */ 
+  align-items: center; /* Alinea los componentes en la parte central de contenedor principal. */  
+  justify-content: center; /* Alinea de forma centrada cualquier elemento dentro del contenedor principal. */ 
+  
+  padding: 100px;
+  background-color: rgb(8, 1, 31);
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

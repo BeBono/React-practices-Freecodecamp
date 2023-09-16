@@ -1,0 +1,54 @@
+.style-tarea {
+    background-color: rgb(42, 42, 44);
+    min-height: 40px;
+    width: 100%;
+    color: black;
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+
+}
+
+.Texto {
+    display: flex; 
+    justify-content: flex-start;
+
+    width: 100%;
+}
+
+.Delete{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: red; */
+    width: 30px;    
+    height: 30px;
+    
+}
+
+.icono {
+    /* height: 30px; */
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.icono:hover {
+    color: white;
+    
+}
+
+
+/* Se tacha la tarea, cuando se marca como completada*/
+
+.style-tarea.completada {
+
+    background-color: rgb(133, 204, 26);
+    text-decoration: line-through; 
+}

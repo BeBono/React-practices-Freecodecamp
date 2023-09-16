@@ -1,0 +1,22 @@
+
+
+.App {  /* Main cointeiner and styles to center all items */
+  background-color: rgb(146, 8, 8);
+  margin: 50px;
+  min-width: 100px;
+  height: 900px;
+
+  /* Centrado de elementos en el contenedor: */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+    margin: 30px;
+    height: 200px;
+    width: 400px;
+}
+

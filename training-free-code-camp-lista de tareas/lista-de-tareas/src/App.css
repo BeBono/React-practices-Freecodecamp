@@ -1,0 +1,40 @@
+/* Limpiar el bady de cualquier espacio: */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  background-color: rgb(92, 97, 92);
+ color: rgb(54, 43, 12);
+ text-align: center;
+ border-radius: 10px;
+ font-size: 20px;
+ 
+}
+
+/* Clase .App ocupará toda la pantalla para trabajar desde aquí como el contendor de más alto orden: */
+
+.App {
+  height: 100vh; /* ocupa el 100% del alto de todo su contenedor. En este caso el body */
+  background-color: rgb(1, 1, 32);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contenerdor de 2do orden centrado en navegador tanto vertical como horizontalmente. */
+
+.main-container {
+  background-color: rgb(194, 199, 175);
+  min-height: 300px;
+  width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+}

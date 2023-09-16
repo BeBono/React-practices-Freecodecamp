@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  border: 0;
+  /* background-color: blue; */
+  margin: 0;
+  padding: 0;
+}
+
+/* .style-image {
+  width: 200px;
+  height: 200px;
+}
+
+.style-profession {
+  font-size: 500%;
+} */
+
+.App {
+  background-color: blue;
+  padding: 10px;
+  /* min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;  */
+
+}
+
+.main-container {
+  background-color: #fffffffb;
+  /* display: flex; */
+  min-height: 600px;
+  padding: 10px;
+  border: 1cm;
+}
+
+.container-comp {
+
+background-color: rgb(85, 76, 76)  ;
+display: flex;
+/* border: 2cm; */
+margin: 10px;
+}
